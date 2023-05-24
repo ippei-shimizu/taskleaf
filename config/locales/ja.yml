@@ -13,3 +13,20 @@ HTTP による接続要求を送信しました、応答を待っています...
 
 2023-05-23 22:26:44 (3.59 MB/s) - `ja.yml' へ保存終了 [204802]
 
+ja:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "バリデーションに失敗しました: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "%{record}が存在しているので削除できません"
+          has_many: "%{record}が存在しているので削除できません"
+    models:
+      task: タスク
+    attributes:
+      task: 
+      id: ID
+      name: 名称
+      description: 詳しい説明
+      created_at: 登録日時
+      updated_at: 更新日時
