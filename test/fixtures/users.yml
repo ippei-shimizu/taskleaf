@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nale: MyString
+  email: MyString
+  password_digest: MyString
+
+two:
+  nale: MyString
+  email: MyString
+  password_digest: MyString
